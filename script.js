@@ -3,11 +3,11 @@ class Animal {
 	constructor(species){
 		this._specie=species;
 	}
-	get speices(){
-		return this._species;
+	get species(){
+		return this._specie;
 	}
 	makeSound(){
-		console.log(`The ${this._species} makes a sound`);
+		console.log(`The ${this._specie} makes a sound`);
 	}
 }
 
